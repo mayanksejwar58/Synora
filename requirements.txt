@@ -1,0 +1,5 @@
+watchdog
+PyMuPDF
+python-dotenv
+chromadb
+pytest

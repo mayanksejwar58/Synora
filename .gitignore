@@ -1,5 +1,39 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment
 .env
 
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Synora runtime data
+data/database/
+data/vectorstore/
+data/cache/
+data/logs/
+
+# User PDFs
+data/documents/
+watched_folder/
+
+# Build
+build/
+dist/
+*.spec
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
